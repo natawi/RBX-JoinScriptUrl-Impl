@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JoinScriptUrlImpl", "JoinScriptUrlImpl\JoinScriptUrlImpl.vcxproj", "{DB240D5C-4839-4842-B146-070357D3F4B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37489709-8054-4903-9C49-A79846049FC9} = {37489709-8054-4903-9C49-A79846049FC9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Detours", "Detours\vc\Detours.vcxproj", "{37489709-8054-4903-9C49-A79846049FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB240D5C-4839-4842-B146-070357D3F4B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB240D5C-4839-4842-B146-070357D3F4B4}.Debug|x86.Build.0 = Debug|Win32
+		{DB240D5C-4839-4842-B146-070357D3F4B4}.Release|x86.ActiveCfg = Release|Win32
+		{DB240D5C-4839-4842-B146-070357D3F4B4}.Release|x86.Build.0 = Release|Win32
+		{37489709-8054-4903-9C49-A79846049FC9}.Debug|x86.ActiveCfg = DebugMDd|Win32
+		{37489709-8054-4903-9C49-A79846049FC9}.Debug|x86.Build.0 = DebugMDd|Win32
+		{37489709-8054-4903-9C49-A79846049FC9}.Release|x86.ActiveCfg = ReleaseMD|Win32
+		{37489709-8054-4903-9C49-A79846049FC9}.Release|x86.Build.0 = ReleaseMD|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02A80F72-D303-47C7-8CDB-295C5B602F95}
+	EndGlobalSection
+EndGlobal
